@@ -1,0 +1,13 @@
+name: Test-workflow
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  job-1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Command
+        run: echo "Hello, World!"
+      - name: Command 2
+        run: echo "Hello, World 2!"
